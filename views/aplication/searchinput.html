@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/vue-material/dist/vue-material.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/vue-material/dist/theme/default.css">
+  </head>
+
+  <body style="background-color:#fff;padding: 5px;">
+    <div id="app">
+      <!-- Your code here -->
+      <form action="#">
+          <md-field>
+      <label></label>
+      <md-input v-model="withLabel" placeholder="Search..."></md-input>
+      <md-button href="/list" target="_top" type="submit" class="md-icon-button"><md-icon>search</md-icon></md-button>
+    </md-field>
+    </form>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue-material"></script>
+    <script>
+      Vue.use(VueMaterial.default)
+
+      new Vue({
+        el: '#app'
+      })
+    </script>
+  </body>
+</html>

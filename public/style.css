@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+/* styles */
+/* called by your view template */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+* {
+  box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+    scroll-behavior: smooth;
+  
+  
+  
+
+  
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 2em;
+}
+
+
+details {
+ cursor:pointer;
+ outline:none;
+}
+
+
+h1 {
+//  font-style: italic;
+ // color: #373fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form.m {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+  outline:none;
+    cursor:pointer;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+.ff-powered {
+  display:none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute; top: -9999px; left: -9999px !important;
+  opacity: 0 !important;
+  font-size: 1px !important;
+  color: #fff !important;
+  cursor: none !important;
+  
+    -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 100%;
+}
+
+
+
+.ff-alert {
+  display:none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute; top: -9999px; left: -9999px !important;
+  opacity: 0 !important;
+  font-size: 1px !important;
+  color: #fff !important;
+  cursor: none !important;
+  
+    -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 100%;
+}
+
+button:hover {
+ // background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+textarea {
+ cursor:pointer;
+}
